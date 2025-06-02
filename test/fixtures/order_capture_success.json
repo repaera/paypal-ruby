@@ -1,0 +1,33 @@
+{
+  "id": "ORDER_CAPTURE_789",
+  "status": "COMPLETED",
+  "purchase_units": [
+    {
+      "reference_id": "default",
+      "payments": {
+        "captures": [
+          {
+            "id": "CAPTURE_ID_ABC",
+            "status": "COMPLETED",
+            "amount": {
+              "currency_code": "USD",
+              "value": "100.00"
+            },
+            "final_capture": true,
+            "seller_protection": {
+              "status": "ELIGIBLE"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "payer": {
+    "name": {
+      "given_name": "John",
+      "surname": "Doe"
+    },
+    "email_address": "john.doe@example.com",
+    "payer_id": "PAYERID123"
+  }
+}

@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "paypal" # Load the gem
+
+# Add more setup here if needed, e.g., loading environment variables
+# require 'dotenv'
+# Dotenv.load
+
+puts "Loading PayPal console..."
+puts "Default configuration mode: #{Paypal.current_configuration.mode}"
+puts "Configure the gem using Paypal.configure block."
+
+# Start an IRB session
+require "irb"
+IRB.start(__FILE__)

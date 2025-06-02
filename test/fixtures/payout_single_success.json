@@ -1,0 +1,17 @@
+{
+  "batch_header": {
+    "payout_batch_id": "PAYOUT_BATCH_SINGLE_123",
+    "batch_status": "PENDING",
+    "sender_batch_header": {
+      "sender_batch_id": "single_item_uuid_mock",
+      "email_subject": "Test Payout Note"
+    }
+  },
+  "links": [
+    {
+      "href": "[https://api.sandbox.paypal.com/v1/payments/payouts/PAYOUT_BATCH_SINGLE_123](https://api.sandbox.paypal.com/v1/payments/payouts/PAYOUT_BATCH_SINGLE_123)",
+      "rel": "self",
+      "method": "GET"
+    }
+  ]
+}

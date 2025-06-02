@@ -1,0 +1,39 @@
+# Ignore bundler generated files
+/.bundle
+/vendor/bundle/
+
+# Ignore temporary files and logs
+/tmp
+/log/*.log
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore editor generated files
+*.swp
+*~
+*.swo
+
+# Ignore built gem files
+*.gem
+/pkg/
+
+# Ignore coverage files
+/coverage/
+
+# Ignore YARD generated documentation files
+/doc/
+/.yardoc
+
+# Ignore local environment files (if any)
+.env*.local
+.env
+
+# Ignore SQLite database files (if used for testing or dev)
+*.sqlite3
+*.sqlite3-journal
+
+# RubyMine/other IDE specific files
+.idea/

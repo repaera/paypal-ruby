@@ -1,0 +1,49 @@
+require:
+  - rubocop-rake
+  - rubocop-minitest
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.7
+  Exclude:
+    - 'vendor/**/*'
+    - 'tmp/**/*'
+    - 'bin/setup' # Standard script, often doesn't follow all conventions
+    - 'bin/console' # Standard script
+    - 'pkg/**/*'
+    - 'doc/**/*'
+    - 'Gemfile'
+    - 'paypal.gemspec' # Gemspecs have their own structure
+
+Layout/LineLength:
+  Max: 120
+
+Metrics/BlockLength:
+  Exclude:
+    - 'test/**/*_test.rb'
+    - 'Rakefile'
+
+Style/Documentation:
+  Enabled: true
+  Exclude:
+    - 'test/**/*'
+    - 'spec/**/*'
+    - 'lib/paypal/version.rb'
+    - 'lib/paypal/errors.rb'
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+Naming/FileName:
+  Enabled: true
+  Exclude:
+    - 'lib/paypal.rb' # Main file named after the gem
+
+Minitest/AssertRaisesCompoundBody:
+  Enabled: false
+
+# Consider enabling these for stricter style
+# Style/StringLiterals:
+#   EnforcedStyle: double_quotes
+# Style/HashSyntax:
+#   EnforcedShorthandSyntax: always

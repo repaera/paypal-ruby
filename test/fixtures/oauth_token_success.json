@@ -1,0 +1,8 @@
+{
+  "scope": "https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://api.paypal.com/v1/vault/credit-card-history",
+  "access_token": "TEST_ACCESS_TOKEN",
+  "token_type": "Bearer",
+  "app_id": "APP-TEST",
+  "expires_in": 32400,
+  "nonce": "2025-05-21T10:00:00ZTESTNONCE"
+}

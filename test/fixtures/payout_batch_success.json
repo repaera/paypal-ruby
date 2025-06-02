@@ -1,0 +1,11 @@
+{
+  "batch_header": {
+    "payout_batch_id": "custom_batch_id_abc",
+    "batch_status": "PENDING",
+    "sender_batch_header": {
+      "sender_batch_id": "custom_batch_id_abc",
+      "email_subject": "Test Payout Note"
+    }
+  },
+  "links": []
+}

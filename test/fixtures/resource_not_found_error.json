@@ -1,0 +1,6 @@
+{
+  "name": "RESOURCE_NOT_FOUND",
+  "message": "The specified resource does not exist.",
+  "debug_id": "debug_not_found_123",
+  "links": []
+}

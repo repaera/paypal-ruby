@@ -1,0 +1,14 @@
+{
+  "id": "ORDER_SHOW_456",
+  "status": "APPROVED",
+  "intent": "CAPTURE",
+  "purchase_units": [
+    {
+      "reference_id": "default",
+      "amount": {
+        "currency_code": "USD",
+        "value": "100.00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+
+require 'pathname'
+require 'fileutils'
+
+# Path to this application
+APP_ROOT = Pathname.new File.expand_path('../..', __FILE__)
+
+# Install dependencies
+puts '== Installing dependencies =='
+system! 'gem install bundler --conservative'
+system! 'bundle install'
+
+# Create a dummy .env file if it doesn't exist, for local development convenience
+env_file = APP_ROOT.join('.env')
+unless env_file.exist?
+  puts "\n== Creating a sample .env file =="
+  puts "Please fill it with your PayPal Sandbox credentials for local testing."
+  FileUtils.cp APP_ROOT.join('.env.example'), env_file if APP_ROOT.join('.env.example').exist?
+  # Or create a basic one:
+  # File.open(env_file, 'w') do |f|
+  #   f.puts "PAYPAL_CLIENT_ID='YOUR_SANDBOX_CLIENT_ID'"
+  #   f.puts "PAYPAL_CLIENT_SECRET='YOUR_SANDBOX_SECRET'"
+  #   f.puts "PAYPAL_WEBHOOK_ID='YOUR_SANDBOX_WEBHOOK_ID'"
+  #   f.puts "PAYPAL_MODE='sandbox'"
+  # end
+end
+
+
+puts "\n== Setup complete! =="
+puts "You can now run `bin/console` for an interactive session."
+
+# Helper method to run shell commands
+def system!(*args)
+  system(*args) || abort("\n== Command #{args} failed ==")
+end

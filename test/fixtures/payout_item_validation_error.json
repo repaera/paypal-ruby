@@ -1,0 +1,12 @@
+{
+  "name": "VALIDATION_ERROR",
+  "message": "Invalid request. See details.",
+  "debug_id": "debug_payout_validation",
+  "details": [
+    {
+      "field": "items[0].receiver",
+      "issue": "Required field not provided."
+    }
+  ],
+  "links": []
+}

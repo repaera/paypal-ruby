@@ -1,0 +1,16 @@
+{
+  "id": "ORDER_CREATED_123",
+  "status": "CREATED",
+  "links": [
+    {
+      "href": "https://api.sandbox.paypal.com/v2/checkout/orders/ORDER_CREATED_123",
+      "rel": "self",
+      "method": "GET"
+    },
+    {
+      "href": "https://www.sandbox.paypal.com/checkoutnow?token=ORDER_CREATED_123",
+      "rel": "approve",
+      "method": "GET"
+    }
+  ]
+}

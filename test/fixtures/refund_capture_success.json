@@ -1,0 +1,21 @@
+{
+  "id": "REFUND_ID_123",
+  "status": "COMPLETED",
+  "amount": {
+    "value": "10.00",
+    "currency_code": "USD"
+  },
+  "note_to_payer": "Partial refund.",
+  "links": [
+    {
+      "href": "[https://api.sandbox.paypal.com/v2/payments/refunds/REFUND_ID_123](https://api.sandbox.paypal.com/v2/payments/refunds/REFUND_ID_123)",
+      "rel": "self",
+      "method": "GET"
+    },
+    {
+      "href": "[https://api.sandbox.paypal.com/v2/payments/captures/CAPTURE_ID_FOR_REFUND](https://api.sandbox.paypal.com/v2/payments/captures/CAPTURE_ID_FOR_REFUND)",
+      "rel": "up",
+      "method": "GET"
+    }
+  ]
+}

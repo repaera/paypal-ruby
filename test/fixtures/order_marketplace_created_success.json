@@ -1,0 +1,16 @@
+{
+  "id": "ORDER_MARKETPLACE_123",
+  "status": "CREATED",
+  "payment_source": {
+    "paypal": {
+      "email_address": "customer@example.com"
+    }
+  },
+  "links": [
+    {
+      "href": "https://www.sandbox.paypal.com/checkoutnow?token=ORDER_MARKETPLACE_123",
+      "rel": "approve",
+      "method": "GET"
+    }
+  ]
+}

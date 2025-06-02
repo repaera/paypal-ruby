@@ -1,0 +1,34 @@
+{
+  "batch_header": {
+    "payout_batch_id": "BATCH_ID_SHOW_XYZ",
+    "batch_status": "PROCESSING",
+    "time_created": "2025-02-01T12:00:00Z",
+    "time_completed": null,
+    "sender_batch_header": {
+      "sender_batch_id": "BATCH_ID_SHOW_XYZ",
+      "email_subject": "Test Payout Note"
+    },
+    "amount": {
+      "currency": "USD",
+      "value": "100.00"
+    },
+    "fees": {
+      "currency": "USD",
+      "value": "1.00"
+    }
+  },
+  "items": [
+    {
+      "payout_item_id": "ITEM_ID_1",
+      "transaction_status": "PENDING",
+      "payout_item": {
+        "recipient_type": "EMAIL",
+        "amount": { "currency": "USD", "value": "100.00" },
+        "note": "Payout item 1",
+        "receiver": "receiver1@example.com",
+        "sender_item_id": "sender_item_1"
+      }
+    }
+  ],
+  "links": []
+}

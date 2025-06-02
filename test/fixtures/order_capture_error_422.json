@@ -1,0 +1,12 @@
+{
+  "name": "UNPROCESSABLE_ENTITY",
+  "message": "The requested action could not be performed, semantically incorrect, or failed business validation.",
+  "debug_id": "debug_capture_error_422",
+  "details": [
+    {
+      "issue": "ORDER_ALREADY_CAPTURED",
+      "description": "Order has already been captured."
+    }
+  ],
+  "links": []
+}
