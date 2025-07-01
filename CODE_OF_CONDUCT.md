@@ -1,6 +1,6 @@
 # Contributor Code of Conduct
 
-As contributors and maintainers of the Kamal project, we pledge to create a welcoming and inclusive environment for everyone. We value the participation of each member of our community and want all contributors to feel respected and valued.
+As contributors and maintainers of the Paypal wrapper project, we pledge to create a welcoming and inclusive environment for everyone. We value the participation of each member of our community and want all contributors to feel respected and valued.
 
 We are committed to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, or religion (or lack thereof). We do not tolerate harassment of participants in any form.
 
