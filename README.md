@@ -312,7 +312,7 @@ To install this gem onto your local machine, run `bundle exec rake install`.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [YOUR REPO URL for 'paypal' gem]. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [repaera/paypal-ruby](https://github.com/repaera/paypal-ruby). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 1.  Fork the repository (`https://github.com/repaera/paypal-ruby/fork`)
 2.  Create your feature branch (`git checkout -b my-new-feature`)
